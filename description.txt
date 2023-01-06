@@ -1,0 +1,33 @@
+Project Details:
+Topic - Morse code translator 
+Description - The code takes input in the form of morse code using the
+mouse. Left click for dot, right click for dash and middle mouse button for space.
+After input is taken, it establishes connection with another pc using sockets and
+gives you the required translation for the code.All this is done with proper GUI
+
+inputting morse code using mouse:
+-must write a dictionary mapping each letter,number and punctuation to its morse
+translation
+-must implement GUI for this code
+
+displaying the input:
+-code for diplaying what the user has input in the GUI 
+
+hosting connection between two pcs using sockets:
+-one part of the code runs the socket code on both the pcs establishing a secure connection
+-morse code is sent in the form of a text file
+
+decoding the message:
+-use the same dictionary to extract the characters from the given morse code
+-file is read and dislpayed on a window
+
+more code asking if the user wants to send another message or terminate the program
+if yes execute the code again
+else terminate the connection
+
+The project consists of two modules, sender and reciever. The sender accepts data in morse code format and
+transmits it to the remote reciever. The reciever will then decode the data and display it.
+
+Abhishek - 
+Aryan 
+Me

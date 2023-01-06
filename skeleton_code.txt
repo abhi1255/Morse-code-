@@ -1,0 +1,4 @@
+Algorith for skeleton code:
+Dict with morse and characters
+user inputs the morse
+translated to characters
